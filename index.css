@@ -1,0 +1,112 @@
+/* Put your style information here! */
+
+.navbar {
+  padding-bottom: 2%;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.chunk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4%;
+  padding-right: 2%;
+  padding-left: 2%;
+  background-color: #e3f2fd;
+}
+
+.nav-item {
+  font-size: large;
+}
+
+.subhead {
+  padding-bottom: 1%;
+  color: #1e90ff;
+}
+.img {
+  max-width: 100%;
+}
+
+.chunkwrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  /* display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap; */
+  padding-right: 2%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  background-color: #e3f2fd;
+}
+
+.subgroup {
+  display: block;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #e3f2fd;
+  padding-bottom: 5%;
+}
+
+.footer {
+  padding-bottom: 2%;
+  background-color: #e3f2fd;
+  padding-right: 1vw;
+}
+
+.indented-header {
+  padding-left: 3%;
+}
+
+.text {
+  padding-left: 3%;
+}
+
+@media only screen and (max-width: 700px) {
+  .wrapper {
+    justify-content: flex-start;
+    padding-left: 5%;
+  }
+  .indented-header {
+    padding-left: 5%;
+  }
+
+  .text {
+    padding-left: 8%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .wrapper {
+    justify-content: space-around;
+  }
+
+  .nav-item {
+    font-size: smaller;
+  }
+
+  .title {
+    font-size: x-large;
+  }
+
+  .subgroup {
+    padding-bottom: 25px;
+  }
+}
